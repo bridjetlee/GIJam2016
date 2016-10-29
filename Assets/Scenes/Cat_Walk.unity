@@ -188,7 +188,9 @@ GameObject:
   - 212: {fileID: 952507369}
   - 50: {fileID: 952507368}
   - 114: {fileID: 952507367}
+  - 111: {fileID: 952507372}
   - 82: {fileID: 952507371}
+  - 95: {fileID: 952507373}
   m_Layer: 0
   m_Name: Cat
   m_TagString: Player
@@ -255,7 +257,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1878840905
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d171df5af7615454d91a1ca54809f30e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b86da2c03660a4647a9ea8aeaebb7676, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -266,7 +268,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 952507366}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.83, y: -3.68, z: 0}
+  m_LocalPosition: {x: 0.86, y: -4.05, z: 0}
   m_LocalScale: {x: 0.6243518, y: 0.5993959, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -346,6 +348,37 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!111 &952507372
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 952507366}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 74c660158b62649438dca5f752ffe89c, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!95 &952507373
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 952507366}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: eb231ca9007508644825dae711c4d3dc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1718131867
 GameObject:
   m_ObjectHideFlags: 0
